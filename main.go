@@ -1,21 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
+	if 1 < 2 {
+		fmt.Println("1 < 2")
+	}
 
-	// for i := 0; i < 10; i++ {
-	// 	fmt.Println(i)
-	// }
-
-	// arr := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-
-	// for _, elem := range arr {
-	// 	fmt.Println(elem)
-	// }
-
-	// versao 1.22
-	for range 10 {
-		fmt.Println("10")
+	if x := math.Sqrt(4); x < 10 {
+		fmt.Println("sqrt")
 	}
 }
