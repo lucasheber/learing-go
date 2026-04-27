@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"learningGo/pacote"
+	variaveiseconstantes "learningGo/variaveis-e-constantes"
 )
 
 func main() {
@@ -17,6 +18,9 @@ func main() {
 	fmt.Println("Dividir: ", res, rem)
 
 	fmt.Println("Higher Order: ", foo("Foo")("Bar"))
+
+	fmt.Print("====================== VARIAVEIS ======================\n")
+	variaveiseconstantes.Variaveis()
 }
 
 func somar(a, b int) int {
