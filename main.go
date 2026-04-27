@@ -3,9 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	arr := [3]int{1, 2, 3}
-	fmt.Println(arr)
 
-	arr2 := [10]int{5: 400}
-	fmt.Println(arr2)
+	// for i := 0; i < 10; i++ {
+	// 	fmt.Println(i)
+	// }
+
+	// arr := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+	// for _, elem := range arr {
+	// 	fmt.Println(elem)
+	// }
+
+	// versao 1.22
+	for range 10 {
+		fmt.Println("10")
+	}
 }
